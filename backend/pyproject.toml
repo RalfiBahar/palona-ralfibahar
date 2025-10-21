@@ -1,0 +1,39 @@
+[project]
+name = "ackend"
+version = "0.1.0"
+description = "FastAPI backend for Palona single-agent commerce assistant"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi",
+  "uvicorn[standard]",
+  "pydantic-settings",
+  "sqlalchemy",
+  "psycopg2-binary",
+  "alembic",
+  "pgvector",
+  "httpx",
+  "tenacity",
+  "loguru",
+  "numpy",
+  "pillow",
+  "python-multipart",
+  "pydantic>=2",
+  "openai",
+  "sentence-transformers",
+  "scikit-learn",
+]
+
+[build-system]
+requires = ["hatchling>=1.21.1"]
+build-backend = "hatchling.build"
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.18.2",
+]
+
+
