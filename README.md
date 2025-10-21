@@ -1,3 +1,5 @@
+Hey Kelvin! Hope you are having a great day today. It's Ralfi and this is my minimal implementation for the Rufus-like chatbot. I believe there is much further work that could be done. Please let me know with any more features/reqs that you wish me to update this repo with. Hope to get in contact soon and your feedback. Have a good one.
+
 Palona Monorepo: A single‑agent commerce assistant that unifies conversational shopping via chat, text search, and image‑based search. The assistant integrates product discovery, visual lookup, and product Q&A into one experience across backend, frontend, scripts, and data layers.
 
 ## Overview
