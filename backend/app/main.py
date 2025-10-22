@@ -17,6 +17,9 @@ from .routers.agent import router as agent_router
 configure_logging()
 settings = get_settings()
 
+upload_dir = Path(settings.upload_dir)
+upload_dir.mkdir(parents=True, exist_ok=True)
+
 app = FastAPI()
 app.mount("/uploads", StaticFiles(directory=str(settings.upload_dir)), name="uploads")
 
