@@ -2,6 +2,8 @@ Hey Kelvin! Hope you are having a great day today. It's Ralfi and this is my min
 
 Palona Monorepo: A single‑agent commerce assistant that unifies conversational shopping via chat, text search, and image‑based search. The assistant integrates product discovery, visual lookup, and product Q&A into one experience across backend, frontend, scripts, and data layers.
 
+![Palona demo experience](./dispex.png)
+
 ## Overview
 
 Palona is a full‑stack demo that showcases:
